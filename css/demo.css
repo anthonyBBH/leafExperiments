@@ -1,0 +1,143 @@
+/*** layout ***/
+
+body, html {
+    font-family: verdana;
+    font-size: 12px;
+    line-height:20px;
+    color: #333;
+    background-color: #FEFEFE;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+a {
+    color: #3399FF;
+    text-decoration: none;
+}
+
+
+h2 {
+    display: inline-block;
+}
+
+.no-margin-top {
+    margin-top: 0px;
+}
+
+/*** content ***/
+
+
+
+#content {
+    position: relative;
+    background: #FEFEFE;
+    max-width: 728px;
+}
+
+.content-box {
+    width:780px;
+    height:500px;
+    margin: 100px auto;
+    position: absolute;
+    left:35%;
+    background-color: ;
+}
+
+
+.leaf{
+    width:250px;
+    height:185px;
+    background-image:url('../images/leaf-sprite.png'); 
+    background-repeat: no-repeat;
+    position: absolute;
+
+
+    -webkit-transition: opacity 0.5s;
+    -moz-transition:    opacity 0.5s;
+    -o-transition:      opacity 0.5s;
+}
+
+
+#leaf1-r0  { top: 0px; left: 10px;  z-index: 10;}
+#leaf2-r0  { top: 0px; left: 50px;  z-index: 20;}
+#leaf3-r0  { top: 0px; left: 110px; z-index: 30;}
+#leaf4-r0  { top: 0px; left: 150px; z-index: 40;}
+#leaf5-r0  { top: 0px; left: 190px; z-index: 50;}
+#leaf6-r0  { top: 0px; left: 230px; z-index: 60;}
+#leaf7-r0  { top: 0px; left: 270px; z-index: 70;}
+#leaf8-r0  { top: 0px; left: 310px; z-index: 80;}
+#leaf9-r0  { top: 0px; left: 350px; z-index: 90;}
+#leaf10-r0 { top: 0px; left: 390px; z-index: 100;}
+#leaf11-r0 { top: 0px; left: 430px; z-index: 110;}
+#leaf12-r0 { top: 0px; left: 470px; z-index: 120;}
+
+#leaf1  { top: 50px; left: 10px;  z-index: 130;}
+#leaf2  { top: 50px; left: 50px;  z-index: 140;}
+#leaf3  { top: 50px; left: 110px; z-index: 150;}
+#leaf4  { top: 50px; left: 150px; z-index: 160;}
+#leaf5  { top: 50px; left: 190px; z-index: 170;}
+#leaf6  { top: 50px; left: 230px; z-index: 180;}
+#leaf7  { top: 50px; left: 270px; z-index: 190;}
+#leaf8  { top: 50px; left: 310px; z-index: 200;}
+#leaf9  { top: 50px; left: 350px; z-index: 210;}
+#leaf10 { top: 50px; left: 390px; z-index: 220;}
+#leaf11 { top: 50px; left: 430px; z-index: 230;}
+#leaf12 { top: 50px; left: 470px; z-index: 240;}
+
+#leaf1-r2  { top: 150px; left: 10px;  z-index: 250;}
+#leaf2-r2  { top: 150px; left: 50px;  z-index: 260;}
+#leaf3-r2  { top: 150px; left: 110px; z-index: 270;}
+#leaf4-r2  { top: 150px; left: 150px; z-index: 280;}
+#leaf5-r2  { top: 150px; left: 190px; z-index: 290;}
+#leaf6-r2  { top: 150px; left: 230px; z-index: 300;}
+#leaf7-r2  { top: 150px; left: 270px; z-index: 310;}
+#leaf8-r2  { top: 150px; left: 310px; z-index: 320;}
+#leaf9-r2  { top: 150px; left: 350px; z-index: 330;}
+#leaf10-r2 { top: 150px; left: 390px; z-index: 340;}
+#leaf11-r2 { top: 150px; left: 430px; z-index: 350;}
+#leaf12-r2 { top: 150px; left: 470px; z-index: 360;}
+
+#leaf1-r3  { top: 250px; left: 10px;  z-index: 370;}
+#leaf2-r3  { top: 250px; left: 50px;  z-index: 380;}
+#leaf3-r3  { top: 250px; left: 110px; z-index: 390;}
+#leaf4-r3  { top: 250px; left: 150px; z-index: 400;}
+#leaf5-r3  { top: 250px; left: 190px; z-index: 410;}
+#leaf6-r3  { top: 250px; left: 230px; z-index: 420;}
+#leaf7-r3  { top: 250px; left: 270px; z-index: 430;}
+#leaf8-r3  { top: 250px; left: 310px; z-index: 440;}
+#leaf9-r3  { top: 250px; left: 350px; z-index: 450;}
+#leaf10-r3 { top: 250px; left: 390px; z-index: 460;}
+#leaf11-r3 { top: 250px; left: 430px; z-index: 470;}
+#leaf12-r3 { top: 250px; left: 470px; z-index: 480;}
+
+
+.leaf:hover {background-position:-252px 0px; opacity: 1; cursor: pointer;}
+
+
+.rotate-cw-1{
+    transform: rotate(30deg);
+-ms-transform: rotate(30deg); /* IE 9 */
+-webkit-transform: rotate(30deg); /* Safari and Chrome */}
+
+.rotate-ccw-1{
+    transform: rotate(-30deg);
+-ms-transform: rotate(-30deg); /* IE 9 */
+-webkit-transform: rotate(-30deg); /* Safari and Chrome */}
+
+.rotate-cw-2{
+    transform: rotate(60deg);
+-ms-transform: rotate(60deg); /* IE 9 */
+-webkit-transform: rotate(60deg); /* Safari and Chrome */}
+
+.rotate-ccw-2{
+    transform: rotate(-60deg);
+-ms-transform: rotate(-60deg); /* IE 9 */
+-webkit-transform: rotate(-60deg); /* Safari and Chrome */}
+
+.rotate-cw-3{
+    transform: rotate(90deg);
+-ms-transform: rotate(90deg); /* IE 9 */
+-webkit-transform: rotate(90deg); /* Safari and Chrome */}
+.rotate-ccw-3{
+    transform: rotate(-90deg);
+-ms-transform: rotate(-90deg); /* IE 9 */
+-webkit-transform: rotate(-90deg); /* Safari and Chrome */}
